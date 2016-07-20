@@ -32,6 +32,8 @@ Right now the code base is a bit of a mess. We're big believers in "release earl
 ---
 To set up a development enviroment simply
 
+    ##Install dependencies
+    sudo apt-get install build-essential libssl-dev libffi-dev python-dev
     ##Let's make a new directory so the rhombik dependencies don't interfere with the rest of the system
     mkdir rhombik-env
     ##Creates a virtualenv using python 2
