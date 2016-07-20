@@ -46,6 +46,8 @@ To set up a development enviroment simply
     cd rhombik-object-repository
     ##Tell the rhombik-env python to download all of our python dependencies. This will install them to rhombik-env, not our normal python.
     pip install -r requirements.txt
+    pip install billiard
+    pip install amqp
     #follow the prompts to add a new devleoper superuser account to the test DB.
     python manage.py syncdb
 
