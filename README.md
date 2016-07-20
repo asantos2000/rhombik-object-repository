@@ -59,7 +59,7 @@ Note that npm can have errors installing coffee on some distributions. If you no
 
 We also need sass. Run 
 
-    gem install sass
+    sudo gem install sass
 
 
 Run the server.
